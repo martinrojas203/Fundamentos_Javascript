@@ -1,33 +1,33 @@
 // Declaración de variables
-let anioNacimiento = 2008; //Tipo Numerico INT
-let numeroDecimal = 3.14; //Numerico con parte decimal FLOAT
-let cadenaTexto = "Hola, mundo"; //String (solo texto)
+let edad = 18; //Tipo Numerico INT
+let valorEuter = 2.78; //Numerico con parte decimal FLOAT
+let cadenaComidaSaludable = "Vegetales"; //String
 let valorBooleano = true; //Verdadero o falso (0,1)
-let arregloNumeros = [1, 2, 3, ""]; //Array
+let arregloColor = ["Azul", "amarillo", "Rojo", ""]; //Array
 let objetoPersona = { nombre: "Ana", edad: 30 }; //Object Diccionario
 let valorIndefinid; //Sin valor asignado UNDEFINED
 let valorNulo = null; //Valor nulo NULL
-const mes = "Junio"; //Constante - no
+const mes = "Junio"; //Constante
 
 // Funciones para mostrar cada valor con alert()
-function mostrarAnioNacimiento() {
-  alert("Año de Nacimiento: " + anioNacimiento);
+function mostrarEdad() {
+  alert("edad: " + edad);
 }
 
-function mostrarNumeroDecimal() {
-  alert("Número decimal: " + numeroDecimal);
+function mostrarValorEuter() {
+  alert("Valor Euter: " + valorEuter);
 }
 
-function mostrarCadenaTexto() {
-  alert("Cadena de texto: " + cadenaTexto);
+function mostrarComidaS() {
+  alert("Comida Saludable: " + cadenaComidaSaludable);
 }
 
 function mostrarBooleano() {
-  alert("Valor booleano: " + valorBooleano);
+  alert("Estudiante?: " + valorBooleano);
 }
 
-function mostrarArreglo() {
-  alert("Arreglo de números: " + arregloNumeros);
+function mostrarColor() {
+  alert("Numeros primarios: " + arregloColor);
 }
 
 function mostrarObjeto() {
